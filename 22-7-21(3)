@@ -1,0 +1,28 @@
+import java.util.*;
+class Dcoder
+ {
+public static void main(String args[])
+ { 
+ HashMap<Integer,Integer>x1=new  HashMap<Integer,Integer>();
+ x1.put(101,50000);
+ x1.put(102,45000);
+ x1.put(103,35000);
+ x1.put(104,40000);
+ x1.put(105,45000);
+System.out.println(x1);
+int value,key;
+if(x1.containsKey(103))
+ {
+x1.put(key,value=+5000);
+System.out.println(x1);
+ }
+else
+{
+System.out.println("key not found");
+}
+}
+}
+ output:
+ [101=50000,102=45000,103=35000,104=40000,105=45000]
+ Enter key value=109
+ value not found
